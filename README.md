@@ -1,6 +1,16 @@
 # The Ministry of Improbable Solutions to Small Problems
 
-First-draft prototype of the Ministry website. Plain HTML, CSS and JavaScript: no build step, no paid services, nothing stored.
+Poetic logic as a solution engine.
+
+A surreal space where improbable solutions to small problems are decreed by poetic form and the natural world. The visitor chooses a small problem. The Ministry deals a creature and a poetic form. The form supplies the reasoning, and the findings are issued as a single printed broadside.
+
+Part of my MDes course work at the University of Sunderland
+
+This is a working prototype: plain HTML, CSS and JavaScript, with no build step, no paid services and nothing stored.
+
+## Method
+
+Poetic form works as the logic of each solution, e.g. the sestina's 6-1-5-2-4-3 rotation in Report 39.
 
 ## Files
 
@@ -10,12 +20,6 @@ First-draft prototype of the Ministry website. Plain HTML, CSS and JavaScript: n
 - `styles.css` — all styling for both pages
 - `script.js` — dealing the creature and form; the objection and amendment flow
 - `images/theatre.jpg` — the paper-theatre collage
-
-## Publishing on GitHub Pages
-
-1. Upload everything in this folder to the top level of a repository, keeping the `images` folder.
-2. In the repository: Settings → Pages → Source: "Deploy from a branch", branch `main`, folder `/ (root)`.
-3. The site appears at `https://<username>.github.io/<repository>/` after a minute or two.
 
 ## Still to do
 
