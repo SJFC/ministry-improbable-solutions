@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Ministry of Improbable Solutions to Small Problems</title>
+<meta name="description" content="State your inconvenience. A creature and a poetic form will be dealt.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Libre+Franklin:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the consultation</a>
+
+<header class="site-header">
+  <a class="site-name" href="index.html">The Ministry of Improbable Solutions</a>
+  <nav class="site-nav" aria-label="Main">
+    <a href="index.html" aria-current="page">Consultations</a>
+    <a href="broadside.html">Broadsides</a>
+    <a href="broadside.html#register">Registers</a>
+    <a href="#about">About the Ministry</a>
+  </nav>
+</header>
+
+<main id="main" class="page">
+
+  <article class="sheet">
+    <div class="masthead">
+      <div class="masthead-order">Public Notice</div>
+      <div class="masthead-name">The Ministry of Improbable Solutions to Small Problems</div>
+      <div class="masthead-ref">Office of Public Inconveniences · consultation open</div>
+    </div>
+
+    <h1 class="sheet-title">State your inconvenience. An instrument will be dealt.</h1>
+
+    <figure class="plate">
+      <div class="plate-frame">
+        <img src="images/theatre.jpg" width="1156" height="1154" alt="Collaged paper theatre: blue and green proscenium columns frame an astronomical chart, a deer-headed figure in a Victorian dress, and jellyfish drifting over a dark sea.">
+        <div class="stage-tag" aria-hidden="true">
+          <div class="tag-label">Now entering</div>
+          <div class="tag-name">the <span data-creature>Starling</span></div>
+          <div class="tag-label">by <span data-form>sestina</span></div>
+        </div>
+      </div>
+      <figcaption>The Ministry's consulting theatre.</figcaption>
+    </figure>
+
+    <p id="about" class="sheet-lede">You choose a small problem. The Ministry deals you a creature and a poetic form. The form supplies the meaning. The Ministry decrees the rest, on a single printed sheet.</p>
+
+    <div class="sheet-form">
+      <h2 class="form-heading">Form 1 · Your problem</h2>
+      <div class="row" id="problems">
+        <button type="button" class="choice" aria-pressed="true">Parking fines</button>
+        <button type="button" class="choice" aria-pressed="false">Teenage acne</button>
+        <button type="button" class="choice" aria-pressed="false">Missing teaspoons</button>
+        <button type="button" class="choice" aria-pressed="false">Lost spectacles</button>
+      </div>
+    </div>
+
+    <div class="sheet-form">
+      <h2 class="form-heading">Form 2 · Your creature and your poetic form (dealt; no appeals)</h2>
+      <div class="row" aria-live="polite">
+        <div class="dealt-card">
+          <div class="card-label">Creature</div>
+          <div class="card-value" data-creature>Starling</div>
+        </div>
+        <div class="dealt-card">
+          <div class="card-label">Form</div>
+          <div class="card-value form" data-form>sestina</div>
+        </div>
+        <button type="button" class="btn btn-outline" id="deal">Deal again</button>
+      </div>
+    </div>
+
+    <div class="sheet-action">
+      <a class="cta" href="broadside.html">Receive the Ministry's findings</a>
+      <p class="summary">Problem: <span data-problem>Parking fines</span> · Creature: <span data-creature>Starling</span> · Form: <span data-form>sestina</span></p>
+    </div>
+  </article>
+
+  <section class="column" aria-labelledby="issued-title">
+    <h2 class="section-title" id="issued-title">Recently issued</h2>
+    <a class="issued" href="broadside.html">
+      <span class="issued-ref">REPORT 39 · PARKING FINES · STARLING · SESTINA</span>
+      <span class="issued-line">Revenue is unchanged. Grievance is evenly distributed.</span>
+    </a>
+    <a class="issued" href="report-40.html">
+      <span class="issued-ref">REPORT 40 · PARKING FINES · STARLING · BALLAD</span>
+      <span class="issued-line">He was only stopping for a minute.</span>
+    </a>
+    <a class="issued" href="broadside.html">
+      <span class="issued-ref">REPORT 49 · MENOPAUSE · CORAL REEF · SEA BALLAD</span>
+      <span class="issued-line">The Ministry is reviewing the science.</span>
+    </a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <p class="motto">All representations will be considered. Some may be understood.</p>
+    <div class="footer-status">
+      <span>Submissions processed: all</span>
+      <span>Problems resolved: figures unavailable</span>
+      <span>This service is operated by a filing cabinet.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
